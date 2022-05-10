@@ -1,0 +1,9 @@
+<?php
+
+defined('BASEPATH') OR exit ('No direct script access allowed');
+class Tbl_datadiri extends CI_Model{
+        public function getdatadiri(){
+                return $this->db->get('Tbl_datadiri',1)->row();
+        }
+}
+?>
